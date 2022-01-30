@@ -4,6 +4,7 @@
 
 body {
   background-color: rgba(138, 80, 161, 0.512);
+  color: white;
 }
 
 .container {
@@ -45,6 +46,7 @@ button {
   font-size: 1rem;
   background-color: rgba(30, 255, 0, 0.724);
   font-size: 1.2rem;
+  color: white;
 }
 
 button:hover {
