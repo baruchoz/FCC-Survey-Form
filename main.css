@@ -2,6 +2,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: rgba(138, 80, 161, 0.512);
+}
+
 .container {
   width: 1024px;
   min-height: 300px;
@@ -15,7 +19,40 @@ header {
 
 form {
   display: block;
-  background-attachment: scroll;
   padding: 40px;
-  margin: auto;
+  margin: 40px 0px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select[id="dropdown"],
+select[id="most-like"] {
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 1rem;
+  background-color: rgba(30, 255, 0, 0.724);
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: rgb(172, 198, 194);
+  transition: 0.5s;
+}
+
+.block-label {
+  display: block;
+  margin-bottom: 10px;
 }
